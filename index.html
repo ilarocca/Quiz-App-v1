@@ -13,9 +13,58 @@
 
 <body>
   <header>
-    <h1>The name of your quiz</h1>
+    <h1>Audio 101 Quiz</h1>
   </header>
-  <main></main>
+  <main>
+ <!--                         START PAGE                 -->
+      <section>
+        <div>
+          <p>Welcome! This quiz will asses you on your fundemental audio knowledge.</p>
+          <button>Start</button>
+        </div>
+      </section>
+<!--                        QUEST NUMBER/SCORE              -->
+      <section>
+        <ul>
+          <li>Question Number</li>
+          <li>Score: 0/5</li>
+        </ul>
+      </section>
+<!--                          QUESTION PAGE               -->
+      <form>
+        <fieldset>
+          <div>
+            <legend>"Question"</legend>
+          </div>
+          <div>
+            <input type="radio" name="option1" tabindex="1" required>
+            <label for="option1">Option 1</label>
+          </div>
+          <div>
+            <input type="radio" name="option2" tabindex="2" required>
+            <label for="option2">Option 2</label>
+          </div>
+          <div>
+            <input type="radio" name="option3" tabindex="3" required>
+            <label for="option3">Option 3</label>
+          </div>
+          <div>
+            <input type="radio" name="option4" tabindex="4" required>
+            <label for="option4">Option 4</label>
+          </div>
+             <button>Submit</button>
+             <button>Next</button>
+        </fieldset>
+      </form>
+<!--                            RESULTS PAGE             -->
+      <section>
+          <div>
+              <p>You Scored __ out of 5!</p>
+          </div>
+          <button>Retry</button>
+      </section>
+
+  </main>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
   <script src="script.js"></script>
 </body>

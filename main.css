@@ -1,4 +1,36 @@
 /* Your styles should be mobile-first and responsive */
+/*                       TOP DOWN OVERALL STRUCTURE                */
+* {
+    box-sizing: border-box;
+}
+body {
+ /* background-image: url(imgs/soundwaves.jpg);
+ background-size: cover; */
+ background-color: grey
+
+}
+
+main {
+
+}
+
+header {
+padding: 55 0 0 0;
+}
+
+h1 {
+  text-align:center;
+  color: white;
+}
+
+fieldset {
+  width: 80%;
+  padding: 40px;
+  margin: 55px;
+  background: white;
+  border-radius: 10px;
+}
+
 
 /** 
   * If you are unclear on how to utilize a mobile-first, responsive technique to write your CSS, here is an example: 
