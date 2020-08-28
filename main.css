@@ -1,17 +1,18 @@
 /* Your styles should be mobile-first and responsive */
 /*                       TOP DOWN OVERALL STRUCTURE                */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
- /* background-image: url(imgs/soundwaves.jpg);
- background-size: cover; */
- background-color: grey
-
+/* background-image: url(imgs/soundwaves.jpg);
+background-size: cover; */
+background-color: grey;
+color: black;
+background-image: url("imgs/soundwaves.jpg");
 }
 
 main {
-
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -19,22 +20,52 @@ padding: 55 0 0 0;
 }
 
 h1 {
-  text-align:center;
-  color: white;
+text-align:center;
+color: white;
+font-family: Helvetica;
+margin: 50px;
+font-size: 45px;
 }
 
-fieldset {
-  width: 80%;
-  padding: 40px;
-  margin: 55px;
-  background: white;
-  border-radius: 10px;
+.welcome, .quiz-form, .answer-response, .quiz-results {
+  margin: 10px;
+  padding: 25px;
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  background:rgba(123, 204, 245, 0.611);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px white;
+}
+
+.welcome button {
+  text-align: center;
+  color:
+}
+
+.answer-container {
+  margin: 10px;
+}
+
+button {
+  background: rgb(255, 128, 96);
+}
+
+
+@media all and (min-width: 800px) {
+  main{
+    margin: 80px;
+  }
+  
+  h1 {
+    padding-top: 30px;
+  }
 }
 
 
 /** 
-  * If you are unclear on how to utilize a mobile-first, responsive technique to write your CSS, here is an example: 
-  *
-  * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
-  *
+* If you are unclear on how to utilize a mobile-first, responsive technique to write your CSS, here is an example: 
+*
+* https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
+*
 */
