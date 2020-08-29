@@ -258,6 +258,7 @@ function restartQuiz() {
   store.questionNumber = 0;
   store.submittingAnswer = false;
   store.currentQuestionState.answerArray = [];
+  store.score = 0; 
 }
 
 /********** EVENT HANDLER FUNCTIONS **********/
